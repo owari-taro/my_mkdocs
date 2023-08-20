@@ -33,5 +33,13 @@
 
 * blog[^1]を参考にmkdocsをread the docsで公開できるようにした
 * sphinxも同じ感じにできるようだ。github pagesのほうが繁栄が早い気もするがlocalでbuildしてpushしてるからだろうか
+* github pagesだとdocsにhtmlを展開しなきゃいけないけど,mkdocsはmdファイルをdocsに入れなきゃいけなさそうなので
+#### github-pages
+* mkdocs gh-deployでも簡単にデプロイできた。こっちのほうがdeployがはやい？
+
+```
+mkdocs gh-deploy\
+```
+https://enu23456.hatenablog.com/entry/2022/11/11/192039
 
 [^1]:[MkDocsドキュメントをGitHubに登録してRead the Docsで自動公開する](https://blog.goediy.com/?p=535#google_vignette)を参考にした
