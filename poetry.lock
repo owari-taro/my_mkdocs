@@ -2,7 +2,7 @@
 name = "black"
 version = "23.7.0"
 description = "The uncompromising code formatter."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.8"
 
@@ -234,7 +234,7 @@ mkdocstrings = ">=0.20"
 name = "mypy-extensions"
 version = "1.0.0"
 description = "Type system extensions for programs checked with the mypy type checker."
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.5"
 
@@ -357,7 +357,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=3.7"
 
@@ -389,7 +389,7 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "cdbc7036f323d8f8098452092ba5c431c5a1531d49bfa4db0275200241bf82bc"
+content-hash = "0735008a0920a782deb4202e238d636e3e645f40c25a3c29a52ade915bb5ee62"
 
 [metadata.files]
 black = [
