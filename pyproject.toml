@@ -10,6 +10,8 @@ packages = [{include = "my_mkdocs"}]
 python = "^3.10"
 mkdocs = "^1.5.2"
 mkdocs-material = "^9.1.21"
+mkdocstrings = {extras = ["python"], version = "^0.22.0"}
+black = "^23.7.0"
 
 
 [build-system]

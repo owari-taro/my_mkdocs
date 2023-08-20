@@ -1,0 +1,44 @@
+site_name: MyMkDocs
+nav:
+  - Home: index.md
+  - About: about.md
+  - 技術日記: diary.md
+  - mkdocs-how-to: mkdocs_howto.md
+theme:
+    name: material
+    palette:
+        - scheme: default
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: ダークモードに切り替えます。
+        - scheme: slate
+          primary: blue
+          accent: blue
+          toggle:
+              icon: material/toggle-switch
+              name: ライトモードに切り替えます
+
+
+
+markdown_extensions:
+    - toc:
+        permalink: "#"
+        baselevel: 2
+        separator: "_"
+    # コードハイライトの設定
+    - pymdownx.snippets:
+    - codehilite:
+        noclasses: true
+        pygments_style: colorful
+        linenums: false
+    # アラート修飾の設定
+    - admonition
+    # スーパーフェンス機能の設定
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - footnotes
+
+plugins:
+- search
+- mkdocstrings
