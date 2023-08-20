@@ -10,7 +10,7 @@
 * ダークモードの切り替えもつけれた
 * 拡張機能もかなりあるみたいなのでsphinxと比べても仕事でも十分つかえるだろう
 
-```yaml
+``` yaml
 
     theme:
     palette:
@@ -26,3 +26,12 @@
               name: ライトモードに切り替えます
 
 ```
+
+
+## 2023/8/20
+### mkdocs and read the docs
+
+* blog[^1]を参考にmkdocsをread the docsで公開できるようにした
+* sphinxも同じ感じにできるようだ。github pagesのほうが繁栄が早い気もするがlocalでbuildしてpushしてるからだろうか
+
+[^1]:[MkDocsドキュメントをGitHubに登録してRead the Docsで自動公開する](https://blog.goediy.com/?p=535#google_vignette)を参考にした

@@ -6,7 +6,7 @@
 ## poetry
 
 ### create requirements.txt
-[oficcial docs](https://python-poetry.org/docs/cli/#options-12)
+see [petory docs](https://python-poetry.org/docs/cli/#options-12) for more info.
 ```
  poetry export -f requirements.txt -o requirements.txt --without-hashes
 ```

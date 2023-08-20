@@ -62,7 +62,7 @@ def sample(message:str)->str:
 
 
 ```python
---8<-- "tmp.py"
+--8<-- "src/tmp.py"
 ```
 ## content-tab
 [mkdocs-material公式](https://squidfunk.github.io/mkdocs-material/reference/content-tabs/)
