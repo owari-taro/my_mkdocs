@@ -40,6 +40,11 @@
 ```
 mkdocs gh-deploy\
 ```
-[^2]: [参考](https://enu23456.hatenablog.com/entry/2022/11/11/192039)
+!!! todo
+   
+      codecommit→s3の組み合わせでもできそうなのでやる
+      [clasmethod例](https://dev.classmethod.jp/articles/sphinx_auto_deployment_to_aws_s3/)
+
 
 [^1]:[MkDocsドキュメントをGitHubに登録してRead the Docsで自動公開する](https://blog.goediy.com/?p=535#google_vignette)を参考にした
+[^2]:[参考](https://enu23456.hatenablog.com/entry/2022/11/11/192039)
