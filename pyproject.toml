@@ -11,6 +11,8 @@ python = "^3.10"
 mkdocs = "^1.5.2"
 mkdocs-material = "^9.1.21"
 mkdocstrings = {extras = ["python"], version = "^0.22.0"}
+mkdocs-open-in-new-tab = "^1.0.2"
+mkdocs-enumerate-headings-plugin = "^0.6.1"
 
 
 [tool.poetry.group.dev.dependencies]

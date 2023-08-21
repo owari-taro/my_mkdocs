@@ -4,6 +4,8 @@ nav:
   - About: about.md
   - 技術日記: diary.md
   - mkdocs-how-to: mkdocs_howto.md
+  - IT_docs: 
+        django: IT/python/django/tips.md
 theme:
     name: material
     palette:
@@ -42,3 +44,5 @@ markdown_extensions:
 plugins:
 - search
 - mkdocstrings
+- open-in-new-tab
+- enumerate-headings
