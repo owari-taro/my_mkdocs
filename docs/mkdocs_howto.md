@@ -71,3 +71,17 @@ https://github.com/mkdocs/mkdocs/issues/1958
 
 
 
+## 番号付け
+mkdocs.ymlで指定したmdファイルが番号付けされる
+``` yaml
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - 技術日記: diary.md
+  - mkdocs-memo: mkdocs_howto.md
+  - IT: 
+      django: IT/python/django/tips.md
+```
+
+https://github.com/timvink/mkdocs-enumerate-headings-plugin
