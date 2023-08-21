@@ -32,3 +32,42 @@ test[^1]
 
 [^1]:注は一番したに表示されるよ
 ```
+## 注釈
+注釈を設定すると、ページ最下部にその内容が展開されます。
+
+脚注への参照[^1]を書くことができます。
+
+長い脚注は[^longnote]のように書くことができます。
+
+
+
+
+[^1]: 1つめの脚注への参照です。
+
+
+[^longnote]: 脚注を複数ブロックで書く例です。
+
+    後続の段落はインデントされて、前の脚注に属します。
+
+
+
+## リンクを新しいタブにしたい
+
+* [mkdocs-open-in-new-tab](https://github.com/JakubAndrysek/mkdocs-open-in-new-tab)をisntallして
+mkdocs.ymlを書き換え
+``` yaml
+
+plugins:
+  - search
+  - mkdocstrings
+  - open-in-new-tab
+```
+
+
+* markdownを書き換えればできるが毎回書くのはめんどうなので
+
+https://github.com/mkdocs/mkdocs/issues/1958
+
+
+
+
