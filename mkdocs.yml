@@ -10,6 +10,7 @@ nav:
         - django: IT/python/django/tips.md
 theme:
     name: material
+    language: ja
     palette:
         - scheme: default
           toggle:
@@ -48,3 +49,5 @@ plugins:
 - mkdocstrings
 - open-in-new-tab
 - enumerate-headings
+
+

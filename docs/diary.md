@@ -48,3 +48,7 @@ mkdocs gh-deploy\
 
 [^1]:[MkDocsドキュメントをGitHubに登録してRead the Docsで自動公開する](https://blog.goediy.com/?p=535#google_vignette)を参考にした
 [^2]:[参考](https://enu23456.hatenablog.com/entry/2022/11/11/192039)
+
+
+
+https://github.com/pangeo-data/cog-best-practices/issues/4
