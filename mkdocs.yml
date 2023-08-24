@@ -2,7 +2,7 @@ site_name: MyMkDocs
 nav:
   - Home: index.md
   - About: about.md
-  - 技術日記: diary.md
+  - 技術メモ: diary.md
   - sample: sample.md
   - mkdocs-how-to: mkdocs_howto.md
   - IT:
@@ -11,6 +11,11 @@ nav:
 theme:
     name: material
     language: ja
+    features:
+        - navigation.tabs
+        - navigation.sections
+        - navigation.expand
+        - navigation.path
     palette:
         - scheme: default
           toggle:
@@ -26,6 +31,7 @@ theme:
 
 
 markdown_extensions:
+    - attr_list
     - toc:
         permalink: "#"
         baselevel: 2
@@ -42,6 +48,7 @@ markdown_extensions:
     - pymdownx.superfences
     - pymdownx.tasklist:
         custom_checkbox: true
+    #注
     - footnotes
 
 plugins:
@@ -49,5 +56,5 @@ plugins:
 - mkdocstrings
 - open-in-new-tab
 - enumerate-headings
-
+- git-revision-date-localized
 
