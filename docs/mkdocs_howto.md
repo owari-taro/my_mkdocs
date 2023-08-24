@@ -87,3 +87,8 @@ nav:
 https://github.com/timvink/mkdocs-enumerate-headings-plugin
 ## mkdocs plugin
 [プラグイン集1(class-method)](https://dev.classmethod.jp/articles/mkdocs-plugins-1/#toc-1)
+
+
+## 最終更新日を表示したい
+
+[mkdocs-git-revision-date-localized-plugin](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)を使おう
