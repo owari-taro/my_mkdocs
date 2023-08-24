@@ -90,5 +90,6 @@ https://github.com/timvink/mkdocs-enumerate-headings-plugin
 
 
 ## 最終更新日を表示したい
-
+ドキュメントの鮮度がわかるように日付をいれたほうがいいと推奨されている.
+gitでの更新日が使われるよう
 [mkdocs-git-revision-date-localized-plugin](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)を使おう
